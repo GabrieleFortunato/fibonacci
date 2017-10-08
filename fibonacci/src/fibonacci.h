@@ -1,8 +1,8 @@
 /*
  * fibonacci.h
  *
- *  Created on: 29 set 2017
- *      Author: gabriele
+ *  Created on:
+ *      Author:
  */
 
 #ifndef FIBONACCI_H_
@@ -22,7 +22,7 @@
 #define NEW_LINE          "\n"
 #define SEPARATOR_LINE    "-"
 #define PRINT_NUMBER      "Posizione numero %2d: numero %9d"
-#define PRINT_SERIE       "SERIE DI FIBONACCI"
+#define PRINT_SERIE       "SERIE DI FIBONACCI:"
 
 /**
  * Restituisce il numero appartenente alla serie di Fibonacci

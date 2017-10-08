@@ -1,7 +1,7 @@
 /*
  ============================================================================
  Name        : fibonacci_test.c
- Author      : Maddalena Fossati
+ Author      :
  Version     :
  Copyright   : Your copyright notice
  Description : Hello World in C, Ansi-style
@@ -27,7 +27,7 @@ void test_fibonacci(){
 int main(void) {
 	CU_initialize_registry();
 	CU_pSuite pSuite_A = CU_add_suite("SUITE A",init_suite_default,clear_suite_default);
-	CU_add_test(pSuite_A,"test of fibonacci()",test_fibonacci);
+	CU_add_test(pSuite_A,"test of generate_number()",test_fibonacci);
 	CU_basic_set_mode(CU_BRM_VERBOSE);
 	CU_basic_run_tests();
 	CU_cleanup_registry();
