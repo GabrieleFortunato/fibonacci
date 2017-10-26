@@ -21,8 +21,7 @@ int clear_suite_default(){
 	return ZERO;
 }
 
-void test_fibonacci(){
-}
+void test_fibonacci(){}
 
 int main(void) {
 	CU_initialize_registry();

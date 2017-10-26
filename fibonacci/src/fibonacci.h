@@ -15,7 +15,7 @@
 #define ZERO       		  0
 #define ONE        		  1
 #define TWO        		  2
-#define NUMBERS_FOR_LINE  4
+#define NUMBERS_FOR_LINE  3
 #define NUMBERS			  40
 #define FILE_NAME         "fibonacci.txt"
 #define FILE_MODE  		  "w"
@@ -27,7 +27,7 @@
 /**
  * Restituisce il numero appartenente alla serie di Fibonacci
  * e corrispondente alla posizione indicata dal parametro position
- * @pre il parametro position deve essere un numero inero maggiore di 0
+ * @pre il parametro position deve essere un numero intero maggiore di 0
  * @param position
  * @return
  */
