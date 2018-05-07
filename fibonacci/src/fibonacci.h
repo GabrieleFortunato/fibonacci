@@ -1,12 +1,26 @@
 /*
  * fibonacci.h
  *
- *  Created on:
- *      Author:
+ *  Created on: 20 aprile 2018
+ *      Author: Gabriele Fortunato
  */
 
 #ifndef FIBONACCI_H_
 #define FIBONACCI_H_
+
+#include <assert.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+#define ZERO      		   0
+#define ONE       		   1
+#define TWO        		   2
+#define NUMBERS_FOR_LINE   4
+#define NUMBERS   		   40
+#define NEW_LINE  		   "\n"
+#define SEPARATOR_LINE     "-"
+#define SERIE     		   "SERIE DI FIBONACCI"
+#define NUMBER    		   "Posizione numero %2d: %9d"
 
 /**
  * Restituisce il numero appartenente alla serie di Fibonacci

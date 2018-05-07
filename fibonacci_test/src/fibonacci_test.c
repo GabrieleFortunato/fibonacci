@@ -1,7 +1,7 @@
 /*
  ============================================================================
  Name        : fibonacci_test.c
- Author      :
+ Author      : Gabriele Fortunato
  Version     :
  Copyright   : Your copyright notice
  Description : Hello World in C, Ansi-style
@@ -22,7 +22,11 @@ int clear_suite_default(){
 }
 
 void test_fibonacci(){
-
+	CU_ASSERT_EQUAL(fibonacci(ONE),ZERO);
+	CU_ASSERT_EQUAL(fibonacci(TWO),ONE);
+	CU_ASSERT_EQUAL(fibonacci(fibonacci(TWO)),ZERO);
+	CU_ASSERT_EQUAL(fibonacci(TWO),fibonacci(TWO)+fibonacci(ONE));
+	CU_ASSERT_EQUAL(fibonacci(TEST),fibonacci(TEST-ONE)+fibonacci(TEST-TWO));
 }
 
 int main(void) {

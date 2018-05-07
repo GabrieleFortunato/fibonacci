@@ -1,0 +1,188 @@
+\hypertarget{fibonacci_8h}{}\section{src/fibonacci.h File Reference}
+\label{fibonacci_8h}\index{src/fibonacci.\+h@{src/fibonacci.\+h}}
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{fibonacci_8h_ac328e551bde3d39b6d7b8cc9e048d941}{Z\+E\+RO}~0
+\item 
+\#define \hyperlink{fibonacci_8h_a206b6f5362e56b51ca957635350b70b6}{O\+NE}~1
+\item 
+\#define \hyperlink{fibonacci_8h_a888e15353eb3d330c743dbdeb47117e2}{T\+WO}~2
+\item 
+\#define \hyperlink{fibonacci_8h_a905b283f92d5696e408638a29e0a38b8}{N\+U\+M\+B\+E\+R\+S\+\_\+\+F\+O\+R\+\_\+\+L\+I\+NE}~4
+\item 
+\#define \hyperlink{fibonacci_8h_a52c6eed29863def7303121b65975e83b}{N\+U\+M\+B\+E\+RS}~40
+\item 
+\#define \hyperlink{fibonacci_8h_a7b99dc1e1c86b4897498c2d436ead1b5}{N\+E\+W\+\_\+\+L\+I\+NE}~\char`\"{}\textbackslash{}n\char`\"{}
+\item 
+\#define \hyperlink{fibonacci_8h_a80a0c5170d83796233b4867f5bed0321}{S\+E\+P\+A\+R\+A\+T\+O\+R\+\_\+\+L\+I\+NE}~\char`\"{}-\/\char`\"{}
+\item 
+\#define \hyperlink{fibonacci_8h_a362930fedbc2755a9ee8ab49c54c3ada}{S\+E\+R\+IE}~\char`\"{}S\+E\+R\+IE DI F\+I\+B\+O\+N\+A\+C\+CI\char`\"{}
+\item 
+\#define \hyperlink{fibonacci_8h_abc544a4ed22112e62773c113652c5063}{N\+U\+M\+B\+ER}~\char`\"{}Posizione numero \%2d\+: \%9d\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{fibonacci_8h_aa0bb223dd6aa5ba25a4f41c660ba9fb8}{fibonacci} (int position)
+\item 
+void \hyperlink{fibonacci_8h_ac5bec55cd09b94469f36af0eb7a59680}{print\+\_\+fibonacci\+\_\+list} (F\+I\+LE $\ast$file)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{fibonacci_8h_a7b99dc1e1c86b4897498c2d436ead1b5}\label{fibonacci_8h_a7b99dc1e1c86b4897498c2d436ead1b5}} 
+\index{fibonacci.\+h@{fibonacci.\+h}!N\+E\+W\+\_\+\+L\+I\+NE@{N\+E\+W\+\_\+\+L\+I\+NE}}
+\index{N\+E\+W\+\_\+\+L\+I\+NE@{N\+E\+W\+\_\+\+L\+I\+NE}!fibonacci.\+h@{fibonacci.\+h}}
+\subsubsection{\texorpdfstring{N\+E\+W\+\_\+\+L\+I\+NE}{NEW\_LINE}}
+{\footnotesize\ttfamily \#define N\+E\+W\+\_\+\+L\+I\+NE~\char`\"{}\textbackslash{}n\char`\"{}}
+
+
+
+Definition at line 20 of file fibonacci.\+h.
+
+\mbox{\Hypertarget{fibonacci_8h_abc544a4ed22112e62773c113652c5063}\label{fibonacci_8h_abc544a4ed22112e62773c113652c5063}} 
+\index{fibonacci.\+h@{fibonacci.\+h}!N\+U\+M\+B\+ER@{N\+U\+M\+B\+ER}}
+\index{N\+U\+M\+B\+ER@{N\+U\+M\+B\+ER}!fibonacci.\+h@{fibonacci.\+h}}
+\subsubsection{\texorpdfstring{N\+U\+M\+B\+ER}{NUMBER}}
+{\footnotesize\ttfamily \#define N\+U\+M\+B\+ER~\char`\"{}Posizione numero \%2d\+: \%9d\char`\"{}}
+
+
+
+Definition at line 23 of file fibonacci.\+h.
+
+\mbox{\Hypertarget{fibonacci_8h_a52c6eed29863def7303121b65975e83b}\label{fibonacci_8h_a52c6eed29863def7303121b65975e83b}} 
+\index{fibonacci.\+h@{fibonacci.\+h}!N\+U\+M\+B\+E\+RS@{N\+U\+M\+B\+E\+RS}}
+\index{N\+U\+M\+B\+E\+RS@{N\+U\+M\+B\+E\+RS}!fibonacci.\+h@{fibonacci.\+h}}
+\subsubsection{\texorpdfstring{N\+U\+M\+B\+E\+RS}{NUMBERS}}
+{\footnotesize\ttfamily \#define N\+U\+M\+B\+E\+RS~40}
+
+
+
+Definition at line 19 of file fibonacci.\+h.
+
+\mbox{\Hypertarget{fibonacci_8h_a905b283f92d5696e408638a29e0a38b8}\label{fibonacci_8h_a905b283f92d5696e408638a29e0a38b8}} 
+\index{fibonacci.\+h@{fibonacci.\+h}!N\+U\+M\+B\+E\+R\+S\+\_\+\+F\+O\+R\+\_\+\+L\+I\+NE@{N\+U\+M\+B\+E\+R\+S\+\_\+\+F\+O\+R\+\_\+\+L\+I\+NE}}
+\index{N\+U\+M\+B\+E\+R\+S\+\_\+\+F\+O\+R\+\_\+\+L\+I\+NE@{N\+U\+M\+B\+E\+R\+S\+\_\+\+F\+O\+R\+\_\+\+L\+I\+NE}!fibonacci.\+h@{fibonacci.\+h}}
+\subsubsection{\texorpdfstring{N\+U\+M\+B\+E\+R\+S\+\_\+\+F\+O\+R\+\_\+\+L\+I\+NE}{NUMBERS\_FOR\_LINE}}
+{\footnotesize\ttfamily \#define N\+U\+M\+B\+E\+R\+S\+\_\+\+F\+O\+R\+\_\+\+L\+I\+NE~4}
+
+
+
+Definition at line 18 of file fibonacci.\+h.
+
+\mbox{\Hypertarget{fibonacci_8h_a206b6f5362e56b51ca957635350b70b6}\label{fibonacci_8h_a206b6f5362e56b51ca957635350b70b6}} 
+\index{fibonacci.\+h@{fibonacci.\+h}!O\+NE@{O\+NE}}
+\index{O\+NE@{O\+NE}!fibonacci.\+h@{fibonacci.\+h}}
+\subsubsection{\texorpdfstring{O\+NE}{ONE}}
+{\footnotesize\ttfamily \#define O\+NE~1}
+
+
+
+Definition at line 16 of file fibonacci.\+h.
+
+
+
+Referenced by fibonacci().
+
+\mbox{\Hypertarget{fibonacci_8h_a80a0c5170d83796233b4867f5bed0321}\label{fibonacci_8h_a80a0c5170d83796233b4867f5bed0321}} 
+\index{fibonacci.\+h@{fibonacci.\+h}!S\+E\+P\+A\+R\+A\+T\+O\+R\+\_\+\+L\+I\+NE@{S\+E\+P\+A\+R\+A\+T\+O\+R\+\_\+\+L\+I\+NE}}
+\index{S\+E\+P\+A\+R\+A\+T\+O\+R\+\_\+\+L\+I\+NE@{S\+E\+P\+A\+R\+A\+T\+O\+R\+\_\+\+L\+I\+NE}!fibonacci.\+h@{fibonacci.\+h}}
+\subsubsection{\texorpdfstring{S\+E\+P\+A\+R\+A\+T\+O\+R\+\_\+\+L\+I\+NE}{SEPARATOR\_LINE}}
+{\footnotesize\ttfamily \#define S\+E\+P\+A\+R\+A\+T\+O\+R\+\_\+\+L\+I\+NE~\char`\"{}-\/\char`\"{}}
+
+
+
+Definition at line 21 of file fibonacci.\+h.
+
+\mbox{\Hypertarget{fibonacci_8h_a362930fedbc2755a9ee8ab49c54c3ada}\label{fibonacci_8h_a362930fedbc2755a9ee8ab49c54c3ada}} 
+\index{fibonacci.\+h@{fibonacci.\+h}!S\+E\+R\+IE@{S\+E\+R\+IE}}
+\index{S\+E\+R\+IE@{S\+E\+R\+IE}!fibonacci.\+h@{fibonacci.\+h}}
+\subsubsection{\texorpdfstring{S\+E\+R\+IE}{SERIE}}
+{\footnotesize\ttfamily \#define S\+E\+R\+IE~\char`\"{}S\+E\+R\+IE DI F\+I\+B\+O\+N\+A\+C\+CI\char`\"{}}
+
+
+
+Definition at line 22 of file fibonacci.\+h.
+
+\mbox{\Hypertarget{fibonacci_8h_a888e15353eb3d330c743dbdeb47117e2}\label{fibonacci_8h_a888e15353eb3d330c743dbdeb47117e2}} 
+\index{fibonacci.\+h@{fibonacci.\+h}!T\+WO@{T\+WO}}
+\index{T\+WO@{T\+WO}!fibonacci.\+h@{fibonacci.\+h}}
+\subsubsection{\texorpdfstring{T\+WO}{TWO}}
+{\footnotesize\ttfamily \#define T\+WO~2}
+
+
+
+Definition at line 17 of file fibonacci.\+h.
+
+
+
+Referenced by fibonacci().
+
+\mbox{\Hypertarget{fibonacci_8h_ac328e551bde3d39b6d7b8cc9e048d941}\label{fibonacci_8h_ac328e551bde3d39b6d7b8cc9e048d941}} 
+\index{fibonacci.\+h@{fibonacci.\+h}!Z\+E\+RO@{Z\+E\+RO}}
+\index{Z\+E\+RO@{Z\+E\+RO}!fibonacci.\+h@{fibonacci.\+h}}
+\subsubsection{\texorpdfstring{Z\+E\+RO}{ZERO}}
+{\footnotesize\ttfamily \#define Z\+E\+RO~0}
+
+
+
+Definition at line 15 of file fibonacci.\+h.
+
+
+
+Referenced by fibonacci().
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{fibonacci_8h_aa0bb223dd6aa5ba25a4f41c660ba9fb8}\label{fibonacci_8h_aa0bb223dd6aa5ba25a4f41c660ba9fb8}} 
+\index{fibonacci.\+h@{fibonacci.\+h}!fibonacci@{fibonacci}}
+\index{fibonacci@{fibonacci}!fibonacci.\+h@{fibonacci.\+h}}
+\subsubsection{\texorpdfstring{fibonacci()}{fibonacci()}}
+{\footnotesize\ttfamily int fibonacci (\begin{DoxyParamCaption}\item[{int}]{position }\end{DoxyParamCaption})}
+
+Restituisce il numero appartenente alla serie di Fibonacci e corrispondente alla posizione indicata dal parametro position \begin{DoxyPrecond}{Precondition}
+il parametro position deve essere un numero intero maggiore di 0 
+\end{DoxyPrecond}
+
+\begin{DoxyParams}{Parameters}
+{\em position} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 10 of file fibonacci.\+c.
+
+
+
+References fibonacci(), O\+NE, T\+WO, and Z\+E\+RO.
+
+
+
+Referenced by fibonacci().
+
+\mbox{\Hypertarget{fibonacci_8h_ac5bec55cd09b94469f36af0eb7a59680}\label{fibonacci_8h_ac5bec55cd09b94469f36af0eb7a59680}} 
+\index{fibonacci.\+h@{fibonacci.\+h}!print\+\_\+fibonacci\+\_\+list@{print\+\_\+fibonacci\+\_\+list}}
+\index{print\+\_\+fibonacci\+\_\+list@{print\+\_\+fibonacci\+\_\+list}!fibonacci.\+h@{fibonacci.\+h}}
+\subsubsection{\texorpdfstring{print\+\_\+fibonacci\+\_\+list()}{print\_fibonacci\_list()}}
+{\footnotesize\ttfamily void print\+\_\+fibonacci\+\_\+list (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file }\end{DoxyParamCaption})}
+
+Stampa su file i primi 40 numeri appartenti alla seria di Fibonacci \begin{DoxyPrecond}{Precondition}
+il file deve essere aperto 
+\end{DoxyPrecond}
+
+\begin{DoxyParams}{Parameters}
+{\em file} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 42 of file fibonacci.\+c.
+

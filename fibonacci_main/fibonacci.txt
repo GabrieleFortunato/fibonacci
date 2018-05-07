@@ -1,0 +1,13 @@
+
+SERIE DI FIBONACCI
+
+Posizione numero  1:         0-Posizione numero  2:         1-Posizione numero  3:         1-Posizione numero  4:         2
+Posizione numero  5:         3-Posizione numero  6:         5-Posizione numero  7:         8-Posizione numero  8:        13
+Posizione numero  9:        21-Posizione numero 10:        34-Posizione numero 11:        55-Posizione numero 12:        89
+Posizione numero 13:       144-Posizione numero 14:       233-Posizione numero 15:       377-Posizione numero 16:       610
+Posizione numero 17:       987-Posizione numero 18:      1597-Posizione numero 19:      2584-Posizione numero 20:      4181
+Posizione numero 21:      6765-Posizione numero 22:     10946-Posizione numero 23:     17711-Posizione numero 24:     28657
+Posizione numero 25:     46368-Posizione numero 26:     75025-Posizione numero 27:    121393-Posizione numero 28:    196418
+Posizione numero 29:    317811-Posizione numero 30:    514229-Posizione numero 31:    832040-Posizione numero 32:   1346269
+Posizione numero 33:   2178309-Posizione numero 34:   3524578-Posizione numero 35:   5702887-Posizione numero 36:   9227465
+Posizione numero 37:  14930352-Posizione numero 38:  24157817-Posizione numero 39:  39088169-Posizione numero 40:  63245986
